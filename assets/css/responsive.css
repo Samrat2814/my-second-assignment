@@ -1,6 +1,6 @@
-/* ------------------------------- */
+
 /* Responsive All Device */
-/* ------------------------------- */
+
 
 @media only screen and (min-width: 992px) and (max-width: 1180px) {
   .container {
@@ -12,10 +12,10 @@
     top: 50%;
     right: 5%;
   }
-  .hero-section .hero-text-wrapper p {
+  .hero-section .hero-text p {
     margin: 16px auto 0;
   }
-  .hero-section .hero-text-wrapper h1 {
+  .hero-section .hero-text h1 {
     font-size: 48px;
   }
 
@@ -62,13 +62,13 @@
   .hero-section .hero-booking-form {
     width: 100%;
   }
-  .hero-section .hero-text-wrapper {
+  .hero-section .hero-text {
     width: 85%;
   }
-  .hero-section .hero-text-wrapper h1 {
+  .hero-section .hero-text h1 {
     font-size: 52px;
   }
-  .popular-tour-section .popular-tour-content-wrapper {
+  .popular-tour-section .popular-tour-content {
     row-gap: 40px;
   }
   .popular-tour-section .popular-text {
@@ -86,7 +86,7 @@
   .section-title-wrapper h2 {
     font-size: 34px;
   }
-  .brand-section .brand-content-wrapper {
+  .brand-section .brand-content {
     row-gap: 35px;
   }
   .brand-section .brand-item {
@@ -111,7 +111,7 @@
   .deals-section .deals-item .deals-text {
     right: 10%;
   }
-  .place-section .place-content-wrapper {
+  .place-section .place-content {
     row-gap: 40px;
   }
   .place-section .place-text {
@@ -122,7 +122,7 @@
     flex-basis: 100%;
     max-width: 100%;
   }
-  .newsletter-section .newsletter-content-wrapper {
+  .newsletter-section .newsletter-content {
     row-gap: 40px;
   }
   .newsletter-section .newsletter-form {
@@ -142,7 +142,7 @@
   section {
     padding: 20px 0;
   }
-  .brand-section .brand-content-wrapper {
+  .brand-section .brand-content {
     row-gap: 35px;
   }
   .brand-section .brand-item {
@@ -167,13 +167,13 @@
   .hero-section .hero-booking-form form {
     row-gap: 18px;
   }
-  .hero-section .hero-text-wrapper {
+  .hero-section .hero-text{
     width: 85%;
   }
-  .hero-section .hero-content-wrapper {
+  .hero-section .hero-content {
     height: 580px;
   }
-  .hero-section .hero-text-wrapper h1 {
+  .hero-section .hero-text h1 {
     font-size: 22px;
   }
   .hero-section .hero-booking-form form .form-input,
@@ -182,7 +182,7 @@
     flex-basis: 100%;
     max-width: 100%;
   }
-  .popular-tour-section .popular-tour-content-wrapper {
+  .popular-tour-section .popular-tour-content {
     row-gap: 40px;
   }
   .popular-tour-section .popular-text {
@@ -197,10 +197,10 @@
   .popular-tour-section .popular-img img {
     width: 100%;
   }
-  .section-title-wrapper h2 {
+  .section-title h2 {
     font-size: 20px;
   }
-  .section-title-wrapper p {
+  .section-title p {
     font-size: 14px;
     margin: 16px auto 0;
   }
@@ -219,13 +219,13 @@
     object-fit: cover;
     border-radius: 16px;
   }
-  .destination-section .destination-content-wrapper .destination-item h3 {
+  .destination-section .destination-content .destination-item h3 {
     font-size: 20px;
 }
-  .destination-section .destination-content-wrapper {
+  .destination-section .destination-content {
     margin-top: 60px;
   }
-  .destination-section .destination-content-wrapper {
+  .destination-section .destination-content {
     grid-auto-rows: 176px;
   }
   .destination-item {
@@ -234,7 +234,7 @@
   .deals-section .deals-item .deals-text {
     right: 10%;
   }
-  .place-section .place-content-wrapper {
+  .place-section .place-content {
     row-gap: 40px;
   }
   .place-section .place-text {
@@ -245,7 +245,7 @@
     flex-basis: 100%;
     max-width: 100%;
   }
-  .newsletter-section .newsletter-content-wrapper {
+  .newsletter-section .newsletter-content {
     row-gap: 40px;
   }
   .newsletter-section .newsletter-form {
@@ -325,4 +325,4 @@
   }
 }
 
-/* --- The End --- */
+
